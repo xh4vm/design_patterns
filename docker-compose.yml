@@ -1,0 +1,21 @@
+version: '3.8'
+
+
+x-base-service: &base_service
+  networks:
+    - design-patterns
+
+
+services:
+
+  tests:
+    <<: *base_service
+    build: ./tests
+    container_name: tests
+    volumes:
+      - ./patterns:/opt/tests/patterns
+
+
+networks:
+  design-patterns:
+    driver: bridge
