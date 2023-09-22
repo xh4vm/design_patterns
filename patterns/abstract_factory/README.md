@@ -43,4 +43,4 @@ Say the client wants a factory to produce a chair. The client doesn’t have to 
 
 There’s one more thing left to clarify: if the client is only exposed to the abstract interfaces, what creates the actual factory objects? Usually, the application creates a concrete factory object at the initialization stage. Just before that, the app must select the factory type depending on the configuration or the environment settings.
 
-More information on [resource](https://refactoring.guru/design-patterns/abstract-factory)
+More informations on [resource](https://refactoring.guru/design-patterns/abstract-factory)
