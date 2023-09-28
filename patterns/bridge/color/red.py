@@ -3,7 +3,6 @@ from .base import BaseColor
 
 
 class RedColor(BaseColor):
-
     def get(self):
         message = "Red color"
         logger.info(message)

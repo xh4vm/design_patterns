@@ -26,6 +26,7 @@ async def test_bridge_red_round_shape_create():
 
     assert result == "Drawing round shape with Red color"
 
+
 async def test_bridge_blue_square_shape_create():
     color = BlueColor()
     square = SquareShape(color=color)
